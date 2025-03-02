@@ -1,0 +1,46 @@
+.navigationContainer {
+    background-color: #f9f9f9;
+    width: 100%;
+    border-bottom: 1px solid rgb(207, 205, 205);
+    height: max-content;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.1rem 20% 1.1rem .3rem;
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btnn{
+    border: none;
+    background-color: transparent;
+    border-radius: 100%;
+    padding: .3rem;
+}
+.btn {
+    border: none;
+    background-color: transparent;
+    border-radius: 100%;
+    padding: .3rem;
+}
+
+.btn:hover {
+    background-color: rgb(193, 189, 189);
+}
+
+.active {
+    padding: .5rem .8rem;
+    border: 1px solid gray;
+}
+
+.btnContainer {
+    display: flex;
+    gap: .3rem;
+}

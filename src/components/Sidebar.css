@@ -1,0 +1,17 @@
+.deleteBtn, .editBtn{
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.deleteBtn:hover{
+    color: black;
+}
+.editBtn:hover{
+    color: black;
+}
+.selected-titleList{
+    background-color: #3c90e6;
+}
